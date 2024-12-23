@@ -1,0 +1,11 @@
+services :
+  server 1:
+    image : nginx
+    ports :
+      - "6060:80"
+
+   server 2:
+     image : tomee
+     ports : 
+      - "6065:8080"
+
